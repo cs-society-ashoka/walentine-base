@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import MemoryCloud from "./templates/MemoryCloud";
+import RetroChao from "./templates/RetroChao";
 import Mixtape from "./templates/Mixtape";
 import DesktopSimulator from "./templates/DesktopSimulator";
 import LoveReceipt from "./templates/LoveReceipt";
@@ -22,8 +22,8 @@ const App = () => (
       <HashRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/memory-cloud" element={<MemoryCloud />} />
           <Route path="/mixtape" element={<Mixtape />} />
+          <Route path="/retro-chaos" element={<RetroChao />} />
           <Route path="/desktop" element={<DesktopSimulator />} />
           <Route path="/receipt" element={<LoveReceipt />} />
           <Route path="/rpg" element={<RPGQuest />} />

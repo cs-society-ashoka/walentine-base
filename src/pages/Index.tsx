@@ -6,12 +6,12 @@ const templates = [
     category: "📸 Photo Templates",
     items: [
       {
-        name: "The Memory Cloud",
-        path: "/memory-cloud",
-        description: "Clear the mist to discover floating memories",
-        gradient: "from-purple-300 via-pink-200 to-blue-200",
-        emoji: "☁️",
-        accent: "#c4b5fd",
+        name: "90s Retro Chaos",
+        path: "/retro-chaos",
+        description: "Nostalgic Geocities energy with wild colors",
+        gradient: "from-yellow-400 via-pink-500 to-cyan-400",
+        emoji: "✨",
+        accent: "#ff69b4",
       },
       {
         name: "The Mixtape",
