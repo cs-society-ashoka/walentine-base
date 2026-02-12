@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { config } from "@/config";
 
 
 const SOCIETY_DETAILS = {
