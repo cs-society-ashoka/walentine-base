@@ -29,6 +29,8 @@ export const config = {
     /** Audio URL for Mixtape background music */
   audioUrl: "audio/exampleaudio.mp3",
 
+  logo: "photos/logo.png",
+
   /** Receipt line items for "The Love Receipt" template */
   receiptItems: [
     { name: "Inside Jokes", qty: "× ∞" },
